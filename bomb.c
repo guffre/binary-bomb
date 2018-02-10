@@ -44,7 +44,7 @@ int main(int argc, char **argv) {
     lock = stage_three();
     lock = stage_four();
     WaitForSingleObject(mnum, 10000);
-    printf("\You've completed RE-ALL-THE-THINGS!\n");
+    printf("You've completed RE-ALL-THE-THINGS!\n");
     return 0;
 }
 
